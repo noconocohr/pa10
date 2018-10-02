@@ -22,7 +22,7 @@
     <visual>
       <origin rpy="0 0 3.14" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/S1.stl"/>
+        <mesh filename="file://$(find pa10_stl)/S1.stl"/>
 
 
 <!-- podemos usar tambien en vez de mesh que requiere un archivo, cilindros cajas o esferas!!! -->
@@ -35,7 +35,7 @@
     <collision>
       <origin rpy="0 0 3.14" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/S1_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/S1_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -51,7 +51,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.117"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/S2.stl"/>
+        <mesh filename="file://$(find pa10_stl)/S2.stl"/>
 
       </geometry>
 	<material name="">
@@ -61,7 +61,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.117"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/S2_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/S2_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -77,7 +77,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/S3.stl"/>
+        <mesh filename="file://$(find pa10_stl)/S3.stl"/>
 
       </geometry>
       <material name="">
@@ -87,7 +87,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/S3_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/S3_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -103,7 +103,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.133"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/E1.stl"/>
+        <mesh filename="file://$(find pa10_stl)/E1.stl"/>
 
       </geometry>
 	<material name="">
@@ -113,7 +113,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.133"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/E1_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/E1_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -129,7 +129,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0.003 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/E2.stl"/>
+        <mesh filename="file://$(find pa10_stl)/E2.stl"/>
 
       </geometry>
 	<material name="">
@@ -139,7 +139,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0.003 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/E2_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/E2_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -155,7 +155,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.195"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/W1.stl"/>
+        <mesh filename="file://$(find pa10_stl)/W1.stl"/>
 
       </geometry>
 	<material name="">
@@ -165,7 +165,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.195"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/W1_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/W1_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -181,7 +181,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl/W2.stl"/>
+        <mesh filename="file://$(find pa10_stl)/W2.stl"/>
 
       </geometry>
 	<material name="">
@@ -191,7 +191,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="file:///home/ubuntin/pa10_stl_collision/W2_collision.stl"/>
+        <mesh filename="file://$(find pa10_stl_collision)/W2_collision.stl"/>
       </geometry>
     </collision>
     <inertial>
